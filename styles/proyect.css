@@ -1,0 +1,84 @@
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.carrousel {
+  width: 90%;
+  max-height: 100%;
+  max-width: 120em;
+  padding: 2em;
+  color: var(--font-color-black);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--background-ligth);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 300%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--background-ligth);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .img {
+  width: calc( 100% / 9 - 2em);
+  min-height: 10vh;
+  color: var(--font-color-black);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--background-ligth);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.punto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  font-size: var(--text-M-size);
+  border-radius: 1em;
+  background-color: var(--background-ligth);
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.punto :hover{
+    color: var( --font-color-green);
+}
+
+@media (max-width: 992px) {
+
+  .carrousel .grande{
+    width: 900%;
+  }
+
+}
