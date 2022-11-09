@@ -71,6 +71,16 @@
         height: calc(100vh - 40px);
     }
 
+    .about-image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-description{
+        font-size: var(--text-M-size);
+        margin: 40px;
+    }
+
     .skill-container{
         margin: 40px;
     }
@@ -86,12 +96,12 @@
 
 @media (max-width:576px) {
     .about-image{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .about-description{
-        font-size: var(--text-L-size);
+        font-size: var(--text-M-size);
         margin: 40px;
     }
 
@@ -110,8 +120,8 @@
 
 @media (max-width:390px) {
     .about-image{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .about-description{

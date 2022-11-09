@@ -15,7 +15,7 @@ navToggle.addEventListener("click",()=>{
 
 const grande = document.querySelector('.grande')
 const punto  = document.querySelectorAll('.punto')
-const numProyects = 0;
+const numProyects = 9;
 let operacion = 0
 
 punto.forEach( ( cadaPunto , i )=> {
