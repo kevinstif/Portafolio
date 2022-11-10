@@ -5,7 +5,7 @@
 .home-background{
     margin-top: 80px;
     height: calc(100vh - 80px);
-    background-image: url("../media/223344-a-macbook-with-lines-of-code-on-its-screen-on-a-bu.jpg");
+    background-image: url("../media/home_background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -39,7 +39,7 @@
 }
 
 .image{
-    background-image: url("../media/Home_art\ 1.png");
+    background-image: url("../media/Home_art.png");
     background-position: center center;
     background-size: cover;
     width: 300px;
@@ -62,6 +62,27 @@
 .home-description{
     color: var(--font-color-green);
     font-size: var(--header-title4-size);
+}
+
+.home-cv{
+    background-color: var(--background-dark);
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: var(--text-font-family);
+    color: var(--font-color-white);
+    font-size: var(--text-M-size);
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0 80px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.home-cv:hover{
+    color: var(--font-color-green);
 }
 
 @media (max-width:1200px) {

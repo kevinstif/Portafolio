@@ -17,6 +17,7 @@
     font-family: var(--text-font-family);
     color: var(--font-color-green);
     font-size: var(--text-L-size);
+    text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
     margin: 0 80px;
