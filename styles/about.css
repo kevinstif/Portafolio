@@ -67,18 +67,14 @@
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
     }
 
-    .about-container{
-        height: calc(100vh - 40px);
-    }
-
     .about-image{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .about-description{
         font-size: var(--text-M-size);
-        margin: 40px;
+        margin: 20px;
     }
 
     .skill-container{
@@ -96,8 +92,8 @@
 
 @media (max-width:576px) {
     .about-image{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .about-description{
@@ -125,7 +121,7 @@
     }
 
     .about-description{
-        font-size: var(--text-M-size);
+        font-size: var(--text-S-size);
         margin: 40px;
     }
 }

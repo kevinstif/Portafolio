@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/proyect.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
 </head>
 
@@ -26,16 +27,16 @@
     <header class="header">
         <div>
             <nav class="nav">
-                <p class="logo">Hello World</p>
+                <p class="logo">Portafolio</p>
                 <button class="nav-toogle" aria-label="Abrir menu">
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="nav-menu">
-                    <li><a class="nav-menu-item nav-menu-item-active" href="#">Home</a></li>
-                    <li><a class="nav-menu-item" href="#About">About</a></li>
-                    <li><a class="nav-menu-item" href="#Skills">Skills</a></li>
-                    <li><a class="nav-menu-item" href="#Proyects">Proyects</a></li>
-                    <li><a class="nav-menu-item" href="#">Contact</a></li>
+                    <li class="menu-item"><a class="nav-menu-item nav-menu-item-active" href="#">Home</a></li>
+                    <li class="menu-item"><a class="nav-menu-item" href="#About">About</a></li>
+                    <li class="menu-item"><a class="nav-menu-item" href="#Skills">Skills</a></li>
+                    <li class="menu-item"><a class="nav-menu-item" href="#Proyects">Proyects</a></li>
+                    <li class="menu-item"><a class="nav-menu-item" href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -65,8 +66,9 @@
                     </div>
                     <div class="col-12 col-lg-6 about-item-container">
                         <p class="about-description">
-                            Tengo motivación e interés en seguir perfeccionando habilidades y crecer
-                            profesionalmente. Confío plenamente en mi capacidad de desarrollo de software y
+                            Soy estudiante de la carrera de Ingenieria de Software, 
+                            tengo motivación e interés en seguir perfeccionando habilidades y crecer
+                            profesionalmente. Confío plenamente en mi capacidad de desarrollo y
                             trabajo en equipo.
                         </p>
                     </div>
@@ -79,7 +81,7 @@
                 <div class="skill-container">
                     <div class="row">
                         <div class="col skill-icon-container">
-                            <i class="devicon-html5-plain skill-icon colored"></i>
+                            <i class="devicon-html5-plain skill-icon "></i>
                         </div>
                         <div class="col skill-icon-container">
                             <i class="devicon-css3-plain skill-icon colored"></i>
@@ -151,6 +153,36 @@
                 </div>
             </div>
         </section>
+        <footer class="footer-section dark" id="Contact">
+            <h3 class="footer-title">Contact</h3>
+            <div class="footer-container dark">
+
+                <div class="row">
+                    <div class="col skill-icon-container">
+                        <a href="mailto:kevinstif21@gmail.com" class="footer-icon">
+                            <div>
+                                <i class="far fa-envelope skill-icon" id="mail-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col skill-icon-container">
+                        <a class="footer-icon" href="https://www.linkedin.com/in/kevin-s%C3%A1nchez-urbina-81841a255/?original_referer=">
+                            <div>
+                                <i class="devicon-linkedin-plain skill-icon "></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col skill-icon-container">
+                        <a class="footer-icon" href="https://github.com/kevinstif">
+                            <div>
+                                <i class="devicon-github-original" id="github-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

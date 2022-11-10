@@ -75,10 +75,11 @@ li {
     color: var( --font-color-green);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 500px) {
 
   .carrousel .grande{
     width: 900%;
   }
+
 
 }
