@@ -6,7 +6,7 @@ const skillIcon  = document.querySelectorAll('.skill-icon')
 
 const grande = document.querySelector('.grande')
 const punto  = document.querySelectorAll('.punto')
-const numProyects = 0;
+const numProyects = 9;
 let operacion = 0
 
 //Header Navigation buttons hover effects
@@ -41,12 +41,11 @@ navToggle.addEventListener("click",()=>{
 skillIcon.forEach( ( items , i )=> {
     skillIcon[i].addEventListener('mouseover',()=>{
 
-        skillIcon.forEach( ( items , i )=>{
-            skillIcon[i].classList.remove('colored')
-        })
-
         skillIcon[i].classList.add('colored')
         
+    })
+    skillIcon[i].addEventListener('mouseout',()=>{
+        skillIcon[i].classList.remove('colored')
     })
 })
 
